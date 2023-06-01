@@ -1,6 +1,7 @@
 import pygame
 import time
 import random
+import sys
 
 # Inicialização do Pygame
 pygame.init()
@@ -75,6 +76,7 @@ def jogo_snake():
         for evento in pygame.event.get():
             if evento.type == pygame.QUIT:
                 pygame.quit()
+                sys.exit()
                 quit()
             elif evento.type == pygame.KEYDOWN:
                 if not game_over:
