@@ -20,11 +20,11 @@ Se o comando retornar a versão correta do pip, você já possui o pip instalado
 
 3. Clone o repositório em sua máquina local usando o seguinte comando no terminal:
 
-git clone https://github.com/seu-usuario/meu-projeto.git
+git clone https://github.com/yuri3gp/snake
 
 4. Navegue até o diretório do projeto usando o seguinte comando no terminal:
 
-cd meu-projeto
+cd snake
 
 
 ## Executando o Projeto
